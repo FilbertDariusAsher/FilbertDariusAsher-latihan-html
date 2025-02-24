@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Kritik dan Saran untuk tim MPL</h1></center>
+    <form action="proses.php" method="post">
+        Nama lengkap <br>
+        <input type="text" name="nama" id="nama"
+        required ><br>
+        Tanggal Kritik <br>
+        <input type="date" name="date" id="tanggallahir">
+        <ol></ol>
+        Kritik/Saran/Pujian(jika sudah memilih tidak dapat di cancel) <br>
+        <input type="radio" name="kritik" id="saran" value="f">
+        Kritik <br>
+        <input type="radio" name="kritik1" id="saran1" value="P">
+        Saran <br>
+        <input type="radio" name="kritik2" id="saran2" value="L">
+        Pujian <br>
+        Region <br>
+        <select name="TempatLahir" id="TempatLahir">
+            <option value="As">Asia</option>
+            <option value="Er">Eropa</option>
+            <option value="Am">Amerika</option>
+            <option value="Af">Afrika</option>
+            <option value="Au">Australia</option>
+        </select><br>
+        pesan <br>
+        <textarea name="pesan" id="pesan"></textarea><br>
+        <button type="submit">Kirim </button>
+    </form>
+
+    <a href="TimID.html">MPL ID</a>
+    <ol></ol>
+    <a href="index.html">Home</a>
+</body>
+</body>
+</html>
